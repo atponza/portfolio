@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="My personal portfolio for web design and development">
+	<meta name="keywords" content="Portfolio, HTML, CSS, JavaScript, Photoshop, Raleigh">
+	<meta name="author" content="Amanda Pons">
+    <title>Amanda Pons -- Home</title>
+	
+	<!--Stylesheet for all browsers except IE-->
+	<link rel="stylesheet" href="css/stylesheet.css">
+	
+	<!--Stylesheet for IE-->
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/IEstylesheet.css">
+	<![endif]-->
+	
+	<!--google fonts stylesheet-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Prompt:wght@700&display=swap" rel="stylesheet">
+	
+	<!-- Social icon library from W3Schools -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+	<div class="grid1">
+		<header>
+			<img src="images/aponslogo-400px.png" alt="Logo">
+			<div class="container">
+				<div class="pgram coral"></div>
+				<div class="pgram pink"></div>
+				<div class="pgram purple"></div>
+				<div class="pgram blue"></div>
+			</div>
+		</header>
+		<div class="menuwrap">
+		<input type="checkbox" id="checkbox">
+		<nav>
+			<label for="checkbox" id="menuicon">☰</label>         
+			<ul id="menu">
+				<li><a href="index.html" title="Home Page">Home</a></li>
+				<li><a href="about.html" title="About Me">About Me</a></li>
+				<li><a href="skills.html" title="Skills">Skills</a></li>
+				<li><a href="contact.html" title="Contact Me">Contact Me</a></li>
+			</ul>
+		</nav>
+		</div>
+		
+		<div class="grid2">
+			<section class="home-summary">
+				<h2>Welcome to my Portfolio</h2>
+				<p>My name is Amanda and I am an up and coming web developer and designer based in Raleigh, NC. I have experience with front-end web development and want to continue to develop skills on the back end of both web development and statistical software in the realm of public health. Below are some examples of work I've done for the Web Design course at Wake Technical Community College.</p>
+			</section>
+			<section class="thumb portfolio1">
+				<img src="images/apons-resume-portfolio-image1.jpg"
+					sizes="(max-width: 599px) 400px, (min-width: 600px) and (max-width: 1239px)  800px, 1200px"
+					srcset="images/apons-resume-portfolio-image1-400px.jpg 400w,
+							images/apons-resume-portfolio-image1-800px.jpg 800w,
+							images/apons-resume-portfolio-image1.jpg 1200w"
+					alt="Resume portfolio image 1">
+					
+			</section>
+			<section class="thumb portfolio2">
+				<img src="images/apons-widget-portfolio-image2.jpg"
+					sizes="(max-width: 599px) 400px, (min-width: 600px) and (max-width: 1239px)  800px, 1200px"
+					srcset="images/apons-widget-portfolio-image2-400px.jpg 400w,
+							images/apons-widget-portfolio-image2-800px.jpg 800w,
+							images/apons-widget-portfolio-image2.jpg 1200w"
+					alt="Widget portfolio image 2">
+					
+			</section>
+			<section class="thumb portfolio3">
+				<img src="images/apons-about-portfolio-image3.jpg"
+					sizes="(max-width: 599px) 400px, (min-width: 600px) and (max-width: 1239px)  800px, 1200px"
+					srcset="images/apons-about-portfolio-image3-400px.jpg 400w,
+							images/apons-about-portfolio-image3-800px.jpg 800w,
+							images/apons-about-portfolio-image3.jpg 1200w"
+					alt="About portfolio image 3">
+			</section>
+			<section class="thumb portfolio4">
+				<img src="images/apons-company-portfolio-image4.jpg"
+					sizes="(max-width: 599px) 400px, (min-width: 600px) and (max-width: 1239px)  800px, 1200px"
+					srcset="images/apons-company-portfolio-image4-400px.jpg 400w,
+							images/apons-company-portfolio-image4-800px.jpg 800w,
+							images/apons-company-portfolio-image4.jpg 1200w"
+					alt="Company portfolio image 4">
+			</section>
+		</div>
+		
+		<footer>
+			<p>&copy; 2021 Amanda Pons</p>
+			<div class="container">
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+			</div>
+		</footer>
+	</div>
+  </body>
+ </html>

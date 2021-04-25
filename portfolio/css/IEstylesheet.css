@@ -1,0 +1,44 @@
+/*minimal stylesheet for internet explorer so the website isn't unreadable*/
+
+		body {
+			background: white;
+			}
+		
+		.header-container {
+			height: 200px;
+			background: url(../images/LogoIE.png) no-repeat center;
+			}
+		
+		.header-container img{
+			display: none;
+		}
+
+		.grid2 img {
+			max-width: 50%;
+			}
+			
+		#menu {
+			text-align: center;
+			font-size: 20px; 
+			background-color: #6F567E;
+			list-style-type: none;
+			padding: 10px 0;
+			margin: 0;
+		}
+		
+		#menu a {
+			color: #FFFFFF;
+			text-decoration: underline;
+		}
+		
+		.header-container, .container {
+			background-color: #211D23;
+		}
+		
+		.container a {
+			background-color: #211D23;
+			}
+		
+		#menuicon {
+			display: none;
+		}

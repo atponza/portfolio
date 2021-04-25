@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="My personal portfolio for web design and development">
+	<meta name="keywords" content="Portfolio, HTML, CSS, JavaScript, Photoshop, Raleigh">
+	<meta name="author" content="Amanda Pons">
+    <title>Amanda Pons -- About Me</title>
+	
+	<!--Stylesheet for all browsers except IE-->
+	<link rel="stylesheet" href="css/stylesheet.css">
+	
+	<!--Stylesheet for IE-->
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/IEstylesheet.css">
+	<![endif]-->
+	
+	<!--google fonts stylesheet-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Prompt:wght@700&display=swap" rel="stylesheet">
+	
+	<!-- Social icon library from W3Schools -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+	<div class="grid1">
+		<header>
+			<img class="logo" src="images/aponslogo-400px.png" alt="Logo">
+			<div class="container">
+				<div class="pgram coral"></div>
+				<div class="pgram pink"></div>
+				<div class="pgram purple"></div>
+				<div class="pgram blue"></div>
+			</div>
+		</header>
+		<div class="menuwrap">
+		<input type="checkbox" id="checkbox">
+		<nav>
+			<label for="checkbox" id="menuicon">☰</label>         
+			<ul id="menu">
+				<li><a href="index.html" title="Home Page">Home</a></li>
+				<li><a href="about.html" title="About Me">About Me</a></li>
+				<li><a href="skills.html" title="Skills">Skills</a></li>
+				<li><a href="contact.html" title="Contact Me">Contact Me</a></li>
+			</ul>
+		</nav>
+		</div>
+		
+		<div class="about-me">
+			<h2>About Me</h2>
+			<img src="images/apons-rose-drawing-2021.png"
+					sizes="(max-width: 779px) 200px, (min-width: 780px) 300px"
+					srcset="images/apons-rose-drawing-2021-200px.png 200w,
+							images/apons-rose-drawing-2021-300px.png 300w"
+					alt="Rose drawing">
+			<p>As of 2016, the United Nations has declared the internet a human right due to its widespread usage for most day-to-day tasks. For me, the process of designing and developing for the web is creating that conduit between people and a recognized right. My mission is to create websites that serve as a creative, usable, and effective access point to the internet.</p>
+			</p>
+			<p>I am a North Carolina native earning my Web Development Basics Certificate at Wake Tech in Raleigh, NC. I have a longstanding love of creative art and have pursued this diploma to combine that love with both technical coding skills and creating websites with simple but effective usability.</p>
+			<p>To see a list of my skills and relevant experience, see my <a href="#" title ="My Skills">Skills</a> page.</p>
+		</div>
+		
+		<footer>
+			<p>&copy; 2021 Amanda Pons</p>
+			<div class="container">
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+			</div>
+		</footer>
+	</div>
+  </body>
+ </html>
